@@ -3,15 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport"
-        content="width=device-width,initial scale=1.0">
+        content="width=device-width,initial-scale=1.0">
         <title> Art Gallery </title>
         <link rel="stylesheet" href="style.css">
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     </head>
+
 <body>
+    <!--navbar section-->
    <nav class="navbar">
     <div class="navbar__container">
-       <a href="/" id="navbar__logo">NEXT</a>
+       <a href="/" id="navbar__logo">Artilisse</a>
        <div class="navbar__toggle" id="mobile-menu">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -19,13 +24,13 @@
        </div>
        <ul class="navbar__menu">
         <li class="navbar__item">
-            <a href="/" class="navbar__links"> home </a>
+            <a href="/" class="navbar__links"> Designers </a>
         </li>
         <li class="navbar__item">
-            <a href="/Tech.html" class="navbar__links"> Tech </a>
+            <a href="/Tech.html" class="navbar__links"> Colections </a>
         </li>
         <li class="navbar__item">
-            <a href="/" class="navbar__links"> Products </a>
+            <a href="/" class="navbar__links"> Costumers </a>
         </li>
         <li class="navbar__btn">
             <a href="/" class="button"> Sign Up </a>
@@ -34,5 +39,110 @@
     </div>
 
    </nav>
+
+   <!-- hero section-->
+
+   <div class="main"> 
+    <div class="main__container"> 
+        <div class="main__content">
+            <h1> Artilesse Elegance </h1> 
+            <h2> Personal Designers</h2>
+            <p> Discover your unique style </p>
+            <button class="main__btn"><a href="/"> Get Started </a></button>
+        </div>
+        <div class="main__img--container">
+            <img src="images/fashiondesigner.svg" alt="pic" id="main__img">
+        </div>
+    </div>
+   </div>
+
+   <!-- services section-->
+
+   <div class="services"> 
+    <h1> Experience fashion like never before </h1>
+    <div class="services__container">
+        <div class="services__card">
+            <h2>Experience Bliss</h2>
+            <p>Join the fashion revolution</p>
+            <button> Get Started </button>
+        </div>
+        <div class="services__card">
+            <h2> Are you ready? </h2>
+            <p> Take the leap </p>
+            <button> Get Started </button>
+        </div>
+    </div>
+   </div>
+
+   <!--Footer Section-->
+   <div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>About Us</h2>
+                <a href="/">How It Works</a>
+                <a href="/">Testimonals</a>
+                <a href="/">Careers </a>
+                <a href="/">Investments</a>
+                <a href="/">Terms of services</a>
+            </div>
+            <div class="footer__link--items">
+                <h2>Contact Us</h2>
+                <a href="/">Contact</a>
+                <a href="/">Support</a>
+                <a href="/">Destinations </a>
+                <a href="/">Sponsorships</a>
+            </div>
+        </div>
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>Videos</h2>
+                <a href="/">Submit Videos</a>
+                <a href="/">Ambassadors</a>
+                <a href="/">Agency </a>
+                <a href="/">Influencer</a>
+            </div>
+            <div class="footer__link--items">
+                <h2>Social Media</h2>
+                <a href="/">Instagram</a>
+                <a href="/">Facebook</a>
+                <a href="/"> Youtube</a>
+                <a href="/">Twitter</a>
+            </div>
+        </div>
+    </div>
+    <div class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="" id="footer__logo"></a>
+            </div>
+        </div>
+    </div>
+    <div class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo"> <!--diamond logo on footer which i dont need-->
+                <a href="/" id="footer__logo"> <i class="/"></i>Artelisse</a>
+            </div>
+            <p class="website__rights">Artelisse 2024. all rights reserved</p>
+            <div class="social__icons">
+                <a href="/" class="social__icon--link" target="_blank ">
+                     <i class="fab fa-facebook"></i>
+                </a>
+                <a href="/" class="social__icon--link" target="_blank ">
+                    <i class="fab fa-instagram"></i>
+               </a>
+               <a href="/" class="social__icon--link" target="_blank ">
+                <i class="fab fa-twitter"></i>
+           </a>
+           <a href="/" class="social__icon--link" target="_blank ">
+            <i class="fab fa-youtube"></i>
+       </a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <script src="app.js"></script>
+
 </body>
 </html>
